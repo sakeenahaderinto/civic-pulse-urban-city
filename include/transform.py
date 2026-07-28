@@ -18,7 +18,8 @@ def transform():
     column_mapping = {
         "Created Date": "created_date",
         "Closed Date": "closed_date",
-        "Problem (formerly Complaint Type)": "problem_detail",
+        "Problem (formerly Complaint Type)": "problem",
+        "Problem Detail (formerly Descriptor)": "problem_detail",
         "Location Type": "location_type",
         "Incident Address": "incident_address",
         "City": "city",
@@ -40,5 +41,3 @@ def transform():
     print(f"data loaded to {target_uri}")
 
     return None
-
-transform()
