@@ -6,4 +6,9 @@ airflow_settings.yaml
 __pycache__
 plugins
 credentials.sh
-secret.txt
+.terraform
+*.hcl
+credentials.txt
+*.tfstate
+*.backup
+*.tfvars
